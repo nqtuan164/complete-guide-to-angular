@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <td valign="top">
+      <button (click)="onClick($event)">Display Details</button>
+      <p *ngIf="isDisplay">Fuck you!</p>
+    </td>
+    <td valign="top">
+      <ul>
+        <li *ngFor="let item of logTime; index as i"
+            [ngStyle]="{backgroundColor: i >= 5 ? 'blue' : 'transparent'}"
+            [ngClass]="{colorWhite: i >= 5}">{{item}}</li>
+      </ul>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,7 @@
+
+<label for="inputUsername">Username: </label>
+<input type="text" id="inputUsername" [(ngModel)]="userName"/>
+<!-- <input type="text" id="inputUsername" [(ngModel)]="userName" (input)="onSubmitAvailable($event)"/> -->
+<button [disabled]="!userName">Submit</button>
+<br />
+<p>{{userName}}</p>
