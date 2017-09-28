@@ -1,0 +1,32 @@
+// ----------------
+// Variables desclare
+@import 'inc/variables';
+@import 'inc/colors';
+
+// ----------------
+// Most used vendor
+@import '../vendors/bootstrap/scss/bootstrap';
+//@import '../vendors/fontawesome/scss/font-awesome';
+@import '../vendors/ionicons/scss/ionicons';
+
+// ----------------
+// Accio all include
+@import 'inc/accio';
+
+
+// ----------------
+// Modules
+/* @import 'modules/back-to-top'; */
+
+// ----------------
+// Pages
+@import 'modules/layouts';
+
+// ----------------
+// Lang
+@import 'languages/en-GB';
+
+// ----------------
+// Breakpoints
+@import "breakpoints/style-tablet";
+@import "breakpoints/style-mobile";

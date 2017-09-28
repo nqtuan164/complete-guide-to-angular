@@ -6,7 +6,7 @@
     </td>
     <td valign="top">
       <ul>
-        <li *ngFor="let item of logTime; index as i"
+        <li *ngFor="let item of logTime; let i = index"
             [ngStyle]="{backgroundColor: i >= 5 ? 'blue' : 'transparent'}"
             [ngClass]="{colorWhite: i >= 5}">{{item}}</li>
       </ul>

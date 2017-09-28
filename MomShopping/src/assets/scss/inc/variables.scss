@@ -1,0 +1,32 @@
+
+// ----------------
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i&subset=vietnamese');
+$fa-font-path: '/assets/vendors/fontawesome/fonts';
+$ionicons-font-path: '/assets/vendors/ionicons/fonts';
+
+$font-family-sans-serif:  'segoe UI', 'Open sans', Arial, sans-serif;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif;
+$font-awesome: 'FontAwesome';
+
+$font-weight-base: 500;
+$font-size-base: 0.875rem;
+$line-height-base: 1.48;
+
+// ----------------
+// Border radius
+$border-radius: 0.125rem;
+
+// ----------------
+// Grid system
+$grid-gutter-width: 30px;
+
+// ----------------
+// Transition
+$trans-arguments: all 0.2s ease;
+$trans-arguments-slow: all 0.6s ease;
+
+
+// ----------------
+// Button
+$button-border-radius: 0.125rem;

@@ -1,0 +1,19 @@
+html[lang='en-GB'] {
+	.navbar-main {
+		.navbar-collapse {
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+		.navbar-nav {
+			& > li {
+				padding: 10px 0;
+				position: relative;
+				& > a {
+					font-size: 13px;
+					padding: 5px 11px;
+				}
+			}
+		}
+	}
+}
